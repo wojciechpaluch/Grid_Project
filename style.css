@@ -9,6 +9,9 @@ h1 {
 
 ul {
     background-color: black;
+    height: 25px;
+    box-shadow: 5px 5px;
+    color: rgba(0,9,4,0.64);
 
 }
 
