@@ -5,7 +5,7 @@ body {
 
 ul {
     background-color: black;
-    height: 45px;
+    height: 55px;
     width: 95%;
     box-shadow: 5px 5px;
     color: rgba(0, 9, 4, 0.64);
@@ -17,9 +17,11 @@ li {
     width: 300px;
     padding: 5px 5px 5px 5px;
     margin-left: 45px;
+    margin-top: 5px;
     text-align: center;
     color: white;
     text-decoration: white;
+    font-size: 20px;
 }
 
 a {
@@ -45,6 +47,10 @@ footer {
 
 #article_wolfs img {
     margin-left: 70%;
+}
+
+#menu img {
+    padding-top: 5px;
 }
 
 #menu img:hover {
