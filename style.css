@@ -35,3 +35,9 @@ a:hover { color: gold}
     margin: 0 auto;
     padding: 2em 2em;
 }
+
+footer {
+    text-align: center;
+    padding-top: 2em;
+
+}
