@@ -3,13 +3,12 @@ body {
     color: darkblue;
 }
 
-
 ul {
     background-color: black;
     height: 45px;
     width: 95%;
     box-shadow: 5px 5px;
-    color: rgba(0,9,4,0.64);
+    color: rgba(0, 9, 4, 0.64);
 
 }
 
@@ -23,9 +22,13 @@ li {
     text-decoration: white;
 }
 
-a { color: white;}
+a {
+    color: white;
+}
 
-a:hover { color: gold}
+a:hover {
+    color: gold
+}
 
 #wrapper {
     background-color: white;
@@ -51,7 +54,6 @@ footer {
 header img {
     margin-left: 20%;
 }
-
 
 .tooltip .tooltiptext {
     visibility: hidden;
