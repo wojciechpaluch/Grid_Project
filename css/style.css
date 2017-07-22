@@ -3,9 +3,6 @@ body {
     color: darkblue;
 }
 
-h1 {
-    text-align: center;
-}
 
 ul {
     background-color: black;
@@ -19,7 +16,7 @@ ul {
 li {
     display: inline-block;
     width: 300px;
-    padding-bottom: 5px;
+    padding: 5px 5px 5px 5px;
     margin-left: 45px;
     text-align: center;
     color: white;
@@ -49,4 +46,8 @@ footer {
 
 #menu img:hover {
     transform: scale(1.1);
+}
+
+header img {
+    margin-left: 20%;
 }
