@@ -9,7 +9,7 @@ h1 {
 
 ul {
     background-color: black;
-    height: 25px;
+    height: 45px;
     width: 95%;
     box-shadow: 5px 5px;
     color: rgba(0,9,4,0.64);
@@ -19,6 +19,7 @@ ul {
 li {
     display: inline-block;
     width: 300px;
+    padding-bottom: 5px;
     margin-left: 45px;
     text-align: center;
     color: white;
@@ -45,3 +46,4 @@ footer {
 #article_wolfs img {
     margin-left: 70%;
 }
+
