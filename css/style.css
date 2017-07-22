@@ -47,3 +47,6 @@ footer {
     margin-left: 70%;
 }
 
+#menu img:hover {
+    transform: scale(1.1);
+}
