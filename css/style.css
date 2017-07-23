@@ -1,5 +1,6 @@
 body {
     background-color: silver;
+    background-image: url("images/bg.png")
     color: darkblue;
 }
 
@@ -167,4 +168,8 @@ input[type="text"] {
     border-color: black;
     border-width: 2px;
 
+}
+
+header {
+    background-image: image("images/background.jpg");
 }
