@@ -48,9 +48,6 @@ footer {
 
 }
 
-#article_wolfs img {
-    margin-left: 70%;
-}
 
 #menu img {
     padding-top: 5px;
@@ -171,3 +168,9 @@ input[type="text"] {
     border-width: 2px;
 
 }
+
+#article_img {
+    text-align: right;
+}
+
+
