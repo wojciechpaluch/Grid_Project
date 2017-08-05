@@ -15,7 +15,6 @@ ul {
 
 }
 
-
 li {
     display: inline-block;
     width: 20%;
@@ -48,7 +47,6 @@ footer {
 
 }
 
-
 #menu img {
     padding-top: 5px;
 }
@@ -58,7 +56,7 @@ footer {
 }
 
 header img {
-    margin-left: 20%;
+    width: 100%;
 }
 
 .tooltip .tooltiptext {
