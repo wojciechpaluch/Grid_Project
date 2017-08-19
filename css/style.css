@@ -187,3 +187,14 @@ input[type="text"] {
 
 
 }
+
+@media (max-width: 60.000em) {
+    .layout {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto min-content min-content min-content;
+        grid-column-gap: 0px;
+        grid-row-gap: 20px;
+        background-color: white;
+
+    }
