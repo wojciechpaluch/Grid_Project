@@ -36,13 +36,6 @@ a:hover {
     color: gold
 }
 
-#wrapper {
-    background-color: white;
-    max-width: 60%;
-    margin: 0 auto;
-    padding: 2em 2em;
-    min-width: 550px;
-}
 
 footer {
     text-align: center;
@@ -175,4 +168,22 @@ input[type="text"] {
 }
 
 
+.layout {
+    display: grid;
+    grid-template-columns: auto 16em;
+    grid-template-rows: auto min-content 40px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2em 2em;
+    min-width: 550px;
+}
 
+.header {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+
+
+}
