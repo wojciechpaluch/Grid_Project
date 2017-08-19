@@ -198,3 +198,13 @@ input[type="text"] {
         background-color: white;
 
     }
+
+    @media (max-width: 40.000em) {
+        .layout {
+            display: grid;
+            grid-template-columns: auto;
+            grid-row-template: min-content;
+            background-color: white;
+        }
+    }
+}
