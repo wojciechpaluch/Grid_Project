@@ -41,6 +41,8 @@ footer {
     text-align: center;
     padding-top: 2em;
 
+
+
 }
 
 #menu img {
@@ -172,8 +174,8 @@ input[type="text"] {
     display: grid;
     grid-template-columns: auto 16em;
     grid-template-rows: auto min-content 40px;
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
     max-width: 1280px;
     margin: 0 auto;
     background-color: white;
