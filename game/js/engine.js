@@ -7,7 +7,9 @@ canvas.height = 600;
 const cw = canvas.width;
 const ch = canvas.height;
 
-
+const playerSize = 100;
+let playerX = 30;
+let playerY = 30;
 
 const orbSize = 55;
 let orbX = cw / 2;
@@ -23,9 +25,16 @@ function map() {
     ctx.fillStyle = 'darkblue';
     ctx.fillRect(0, 0, cw, ch);
 }
+
+function player() {
+    ctx.fillStyle = 'red';
+    ctx.fillRect(playerX, playerY, playerSize, playerSize);
+}
 function game() {
     map()
     orb()
+    player()
 }
 
 game()
+setInterval(game, 1000 / 60)
