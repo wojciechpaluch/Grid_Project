@@ -19,6 +19,7 @@ let orbY = ch / 2;
 function orb() {
     ctx.fillStyle = 'white';
     ctx.fillRect(orbX, orbY, orbSize, orbSize);
+
 }
 
 function map() {
@@ -30,6 +31,27 @@ function player() {
     ctx.fillStyle = 'red';
     ctx.fillRect(playerX, playerY, playerSize, playerSize);
 }
+
+window.addEventListener('keydown', function(event) {
+    switch (event.keyCode) {
+        case 37:
+            console.log('Lewo');
+            break;
+
+        case 38:
+            console.log('Góra');
+            break;
+
+        case 39:
+            console.log('Prawo');
+            break;
+
+        case 40:
+            console.log('Dół');
+            break;
+    }
+}, false);
+
 function game() {
     map()
     orb()
