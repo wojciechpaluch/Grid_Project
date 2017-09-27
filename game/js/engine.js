@@ -7,6 +7,7 @@ canvas.height = 600;
 const cw = canvas.width;
 const ch = canvas.height;
 
+
 const playerSize = 100;
 let playerX = 30;
 let playerY = 30;
@@ -32,21 +33,25 @@ function player() {
     ctx.fillRect(playerX, playerY, playerSize, playerSize);
 }
 
-window.addEventListener('keydown', function(event) {
+window.addEventListener('keydown', function (event) {
     switch (event.keyCode) {
         case 37:
+            playerX--;
             console.log('Lewo');
             break;
 
         case 38:
+            playerY--;
             console.log('Góra');
             break;
 
         case 39:
+            playerX++;
             console.log('Prawo');
             break;
 
         case 40:
+            playerY++;
             console.log('Dół');
             break;
     }
