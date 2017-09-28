@@ -33,7 +33,22 @@ function map() {
 function player() {
     ctx.fillStyle = 'red';
     ctx.fillRect(playerX, playerY, playerSize, playerSize);
+
+    if (playerY <= 0) {
+        playerY = 0;
+    }
+    if (playerX <= 0) {
+        playerX = 0;
+    }
+    if (playerY > 600) {
+        playerY = 600 - playerSize;
+    }
+    if (playerX > 1200) {
+        playerX = 1200 - playerSize;
+    }
 }
+
+
 
 window.addEventListener('keydown', function (event) {
     switch (event.keyCode) {
