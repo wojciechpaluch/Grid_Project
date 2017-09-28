@@ -7,6 +7,8 @@ canvas.height = 600;
 const cw = canvas.width;
 const ch = canvas.height;
 
+const speed = 25;
+
 
 const playerSize = 100;
 let playerX = 30;
@@ -36,32 +38,32 @@ function player() {
 window.addEventListener('keydown', function (event) {
     switch (event.keyCode) {
         case 37:
-            playerX--;
+            playerX -= speed;
             console.log('Lewo');
             break;
 
         case 38:
-            playerY--;
+            playerY -= speed;
             console.log('Góra');
             break;
 
         case 39:
-            playerX++;
+            playerX += speed;
             console.log('Prawo');
             break;
 
         case 40:
-            playerY++;
+            playerY += speed;
             console.log('Dół');
             break;
     }
 }, false);
 
 function game() {
-    map()
-    orb()
+    map();
+    orb();
     player()
 }
 
-game()
-setInterval(game, 1000 / 60)
+game();
+setInterval(game, 5 / 5);
